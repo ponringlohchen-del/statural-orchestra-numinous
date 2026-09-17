@@ -253,11 +253,39 @@ h2{
   margin-top:30px;
 }
 
-.member{
-  padding:20px;
-  border:1px solid #333;
-  border-radius:12px;
-  background:#101010;
+.member,
+.member-card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    background: #101010;
+    overflow: hidden;
+}
+
+.member img,
+.member-card img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.member strong,
+.member-card h3 {
+    display: block;
+    margin-top: 12px;
+    color: #fff;
+}
+
+.member span,
+.member-card p {
+    display: block;
+    color: #aaa;
+    margin-top: 6px;
+}
 }
 
 .member strong{
