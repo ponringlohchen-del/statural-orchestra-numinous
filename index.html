@@ -246,15 +246,10 @@ h2{
   background:#080808;
 }
 
-.member-grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:15px;
-  margin-top:30px;
-.member-grid{
+  .member-grid{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    gap:20px;
+    gap:15px;
     margin-top:30px;
 }
 
@@ -262,19 +257,11 @@ h2{
 .member-card{
     width:100%;
     box-sizing:border-box;
-    padding:15px;
+    padding:20px;
     border:1px solid #333;
-    border-radius:16px;
+    border-radius:12px;
     background:#101010;
     overflow:hidden;
-    text-align:center;
-    transition:transform .3s, box-shadow .3s;
-}
-
-.member:hover,
-.member-card:hover{
-    transform:translateY(-5px);
-    box-shadow:0 8px 20px rgba(0,0,0,.4);
 }
 
 .member img,
@@ -283,15 +270,14 @@ h2{
     width:100%;
     height:280px;
     object-fit:cover;
-    border-radius:12px;
+    border-radius:10px;
 }
 
 .member strong,
 .member-card h3{
     display:block;
-    margin-top:14px;
+    margin-top:12px;
     color:#fff;
-    font-size:17px;
 }
 
 .member span,
@@ -299,16 +285,19 @@ h2{
     display:block;
     color:#aaa;
     margin-top:6px;
-    font-size:14px;
 }
 
 .member strong{
+    display:block;
     color:#fff;
 }
 
 .member span{
     color:#8d4d42;
     font-size:14px;
+}
+.member-grid{
+t-size:14px;
 }
 
 .contact-section{
