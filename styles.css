@@ -133,10 +133,9 @@ footer{padding:40px 7vw;background:#0e0c0a;color:#aaa;display:flex;align-items:c
 .gallery-item:hover{
     transform:translateY(-8px);
 }
-
-.gallery-item img{
+}
+.gallery-section{
+    clear:both;
     width:100%;
-    height:300px;
-    object-fit:cover;
     display:block;
 }
